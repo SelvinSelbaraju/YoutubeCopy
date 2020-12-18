@@ -1,0 +1,46 @@
+.container {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 700px 200px;
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: "one two"
+                         "three two"
+                         "four two";
+}
+
+.item {
+    border: 1px solid green;
+    color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.item.one{
+    background-color: black;
+    min-height: 100px;
+    grid-area: one;
+    
+}
+
+.item.two{
+    background-color: orangered;
+    min-height: 100px;
+    grid-area: two;
+    
+}
+
+.item.three{
+    background-color: purple;
+    min-height: 100px;
+    grid-area: three;
+    
+}
+
+.item.four{
+    background-color: yellow;
+    min-height: 100px;
+    grid-area: four;
+    
+}
