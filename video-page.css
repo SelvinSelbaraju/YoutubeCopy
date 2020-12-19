@@ -129,6 +129,7 @@ html {
 
 .video-title {
     font-weight: bold;
+    cursor: pointer;
 }
 
 .video-main-details {
@@ -176,6 +177,7 @@ html {
     border-radius: 50%;
     height: 60px;
     margin-right: .5rem;
+    cursor: pointer;
 }
 .subscribe-btn {
     position: absolute;
@@ -201,6 +203,7 @@ html {
 .video-channel-name {
     font-weight: bold;
     font-size: .95rem;
+    cursor: pointer;
 }
 
 .video-channel-subs {
@@ -229,6 +232,7 @@ html {
 .comment-logo {
     border-radius: 50%;
     height: 45px;
+    cursor: pointer;
 }
 
 .comment-input-bar {
@@ -261,6 +265,7 @@ html {
 }
 .comment-username {
     font-weight: bold;
+    cursor: pointer;
 }
 
 .comment-time {
@@ -281,6 +286,7 @@ html {
     display: flex;
     align-items: center;
     border: none;
+    cursor: pointer;
 }
 
 .comment-thumb-btn span {
@@ -294,4 +300,5 @@ html {
 .reply {
     margin-left: .5rem;
     font-size: .8rem;
+    cursor: pointer;
 }
